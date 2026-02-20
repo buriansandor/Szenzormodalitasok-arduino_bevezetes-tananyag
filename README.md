@@ -16,25 +16,10 @@ Linkek, anyagok:
 Linkek, anyagok:
 
 ## Haladóknak
-### DOOM
-Linkek, anyagok:
-- https://esp32.com/viewtopic.php?t=2338
-- https://hackaday.io/project/192783/instructions
+### `External Interrupt`
+![](https://cdn.sparkfun.com/assets/home_page_posts/2/6/0/8/2018-02-06_-_External_Interrupts_cr.png)
 
-Próbáld ki: 
-- https://wokwi.com/projects/398699683506946049
-
-### Mikrokontroller vezérelt drón
-#### ESP FLY
-Linkek, anyagok:
-- https://www.youtube.com/watch?v=V_mZsiZcy7s
-- https://forum.seeedstudio.com/t/build-the-smallest-esp32-drone-you-can-fly-with-your-phone-esp-fly/294670
-- https://www.elektormagazine.com/labs/esp-fly-the-smallest-esp32-drone-you-can-build
-  
-#### ESP Drone
-Linkek, anyagok:
-- https://github.com/espressif/esp-drone
-- https://docs.espressif.com/projects/espressif-esp-drone/en/latest/gettingstarted.html
+Level Up Your Arduino Code: External Interrupts: https://www.youtube.com/watch?v=J61_PKyWjxU
   
 ### ESP Home
 Linkek, anyagok:
@@ -56,3 +41,24 @@ Linkek, anyagok:
 Linkek, anyagok:
 - Tiny ML: https://www.datacamp.com/blog/what-is-tinyml-tiny-machine-learning
 - Edge AI - Edge Impulse: https://www.edgeimpulse.com/edge-impulse-for-students#take-course
+
+## Izgalmas projektek
+### DOOM
+Linkek, anyagok:
+- https://esp32.com/viewtopic.php?t=2338
+- https://hackaday.io/project/192783/instructions
+
+Próbáld ki: 
+- https://wokwi.com/projects/398699683506946049
+
+### Mikrokontroller vezérelt drón
+#### ESP FLY
+Linkek, anyagok:
+- https://www.youtube.com/watch?v=V_mZsiZcy7s
+- https://forum.seeedstudio.com/t/build-the-smallest-esp32-drone-you-can-fly-with-your-phone-esp-fly/294670
+- https://www.elektormagazine.com/labs/esp-fly-the-smallest-esp32-drone-you-can-build
+  
+#### ESP Drone
+Linkek, anyagok:
+- https://github.com/espressif/esp-drone
+- https://docs.espressif.com/projects/espressif-esp-drone/en/latest/gettingstarted.html
