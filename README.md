@@ -1,4 +1,5 @@
-# Szenzormodalitások - Arduino bevezetés 
+# Szenzormodalitások - Arduino bevezetés
+- https://www.tinkercad.com/joinclass/FBXMSJFMM
 
 ## Mikrokontrollerek VS számítógépek 
 
@@ -8,6 +9,7 @@ https://www.windriver.com/solutions/learning/embedded-linux
 
 ## Arduino
 Linkek, anyagok:
+- 
 
 ## ESP32
 Linkek, anyagok:
