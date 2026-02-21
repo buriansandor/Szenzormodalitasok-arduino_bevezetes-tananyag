@@ -9,7 +9,46 @@ https://www.windriver.com/solutions/learning/embedded-linux
 
 ## Arduino
 Linkek, anyagok:
-- 
+- https://docs.arduino.cc/arduino-cloud/guides/editor
+
+### `Hello world`
+https://www.tinkercad.com/things/4O3nPQPU3fB-console-hello-world
+```C++
+int forLimit = 100;
+
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println("Hello world");
+  Serial.println("-----------");
+  Serial.println("For example");
+  for (int idx = 0; idx < forLimit; idx++)
+  {
+    Serial.print(idx);
+  }
+  delay(1000);
+}
+```
+### Hello world - blinking led
+https://www.tinkercad.com/things/40oyIzZqLwF-arduino-hello-world
+```C++
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(LED_BUILTIN, LOW); // turn the LED off by making the voltage LOW
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+```
 
 ## ESP32
 Linkek, anyagok:
