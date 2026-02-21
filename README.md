@@ -14,6 +14,26 @@ Linkek, anyagok:
 
 ## Micropython
 Linkek, anyagok:
+- https://roboticcoding.com/is-micropython-better-than-arduino/
+- https://docs.pycom.io/docnotes/examples/
+- https://randomnerdtutorials.com/projects-esp32-esp8266-micropython/
+
+### Arduino vs. MicroPython
+
+| Feature        | Arduino (C++)                         | MicroPython                            |
+|----------------|---------------------------------------|----------------------------------------|
+| **Execution**  | Compiled (Native Machine Code)        | Interpreted (Bytecode)                 |
+| **Speed**      | Blazing Fast (Real-time)              | Slower (High-level overhead)           |
+| **Ease of Use**| Moderate (C++ syntax)                 | High (Pythonic syntax)                 |
+| **Memory Usage** | Very Efficient                      | Heavy (Requires more RAM)              |
+| **Debugging**  | Compile, Upload, Repeat               | Live via REPL (Instant)                |
+| **Best For**   | Hardcore Robotics & Low-power systems | IoT, Rapid Prototyping, AI             |
+
+### Hardware Compatibility: Which Boards Play Nice With MicroPython and Arduino?
+- Arduino Uno (Atmega328P): ❌ No MicroPython (Not enough RAM).
+- ESP32: ✅ Excellent for both. This is the “sweet spot” for MicroPython.
+- Raspberry Pi Pico: ✅ Built for MicroPython, but has great Arduino support too.
+- STM32 Series: ✅ Strong support for both.
 
 ## Haladóknak
 ### `External Interrupt`
