@@ -274,7 +274,7 @@ Futtatható példakód: https://www.tinkercad.com/things/lSDT3gfnnwo-servo-motor
 
 ### Hello world
 
-Futtatható példakód: 
+Futtatható példakód: https://wokwi.com/projects/456791515839269889
 
 <details>
   <summary><b>Példa kód</b></summary>
@@ -299,19 +299,6 @@ Futtatható példakód:
   }
   ```
 </details>
-
-### Szenzorok, aktivátorok
-
-Futtatható példakód: 
-
-<details>
-  <summary><b>Példa kód</b></summary>
-  <br>
-
-  ```Arduino  
-  ```
-</details>
-
 
 ### WiFi - internet
 
@@ -400,8 +387,8 @@ Futtatható példakód: https://wokwi.com/projects/305569599398609473
 > - ✓ Költséghatékony
 
 Linkek: 
-- https://www.geeksforgeeks.org/computer-organization-architecture/i2c-communication-protocol/
-
+- [I2C protocol](https://www.geeksforgeeks.org/computer-organization-architecture/i2c-communication-protocol/)
+- [I2C LCD demo](https://lastminuteengineers.com/esp32-i2c-lcd-tutorial/)
 
 Futtatható példakód: 
 
@@ -436,9 +423,9 @@ Futtatható példakód:
 <details>
   <summary><b>ESP32 Példa kód</b></summary>
   <br>
-
+  
   https://wokwi.com/projects/456759131929063425
-
+  
   ```Arduino
   #include <Wire.h>
   #include <LiquidCrystal_I2C.h>
@@ -493,7 +480,7 @@ Futtatható példakód:
 > **Gyakorlatban:** Ha egy feladat szenzor adatokat olvas, egy másik pedig soros porton küldi, a szemafor védi az `sensorData` közös változót az inkonzisztencia ellen.
 
 
-Futtatható példakód: 
+Futtatható példakód: https://wokwi.com/projects/456761886879556609
 
 <details>
   <summary><b>Példa kód</b></summary>
@@ -547,7 +534,11 @@ Futtatható példakód:
 
 ### Többszálúsítás - szenzor és kommunikáció kezelés
 
-Futtatható példakód: 
+Futtatható példakód: https://wokwi.com/projects/456762375254972417
+
+mappában: [multithreading/](multithreading/sketch.ino)
+
+*megj: a [`xTaskCreatePinnedToCore()`](https://sourcevu.sysprogs.com/espressif/lib/freertos/symbols/xTaskCreatePinnedToCore)-t [nem minden FreeRTOS támogatja](https://forums.freertos.org/t/why-was-xtaskcreatepinnedtocore-removed-from-the-latest-release/15766), érdemes lehet esetleg a [`xTaskCreateAffinitySet` megoldással](https://github.com/FreeRTOS/FreeRTOS-Kernel/blob/smp/include/task.h#L384) próbálkozni*
 
 <details>
   <summary><b>Példa kód</b></summary>
@@ -602,22 +593,6 @@ Futtatható példakód:
 
 Linkek, anyagok:
 
-### Többszálúsítás - szenzor és aktivátor kezelés
-
-Futtatható példakód: 
-
-<details>
-  <summary><b>Példa kód</b></summary>
-  <br>
-
-  ```Arduino
-  
-  ```
-
-</details>
-
-Linkek, anyagok:
-
 
 ## Micropython
 Linkek, anyagok:
@@ -640,16 +615,25 @@ Linkek, anyagok:
 - Raspberry Pi Pico: ✅ A MicroPython-hoz készült, de jó Arduino támogatásai is vannak.
 - STM32 sorozat: ✅ Erős támogatás mindkettőhöz.
 
+Példakódok: 
+- https://github.com/lily-osp/micropython_examples
+- https://wokwi.com/micropython
 
-### Hello world - szenzor - aktivátor péla
+### MicroPython péla
 
-Futtatható példakód: 
+Futtatható példakód: https://wokwi.com/projects/322577683855704658
 
 <details>
   <summary><b>Példa kód</b></summary>
   <br>
 
-  ```Arduino  
+  ```Python
+  def main():
+    print("Hello, MicroPython!")
+    print("Running on ESP32")
+
+  if __name__ == "__main__":
+    main()
   ```
 </details>
 

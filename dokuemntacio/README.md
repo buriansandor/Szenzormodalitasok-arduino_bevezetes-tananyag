@@ -1,0 +1,1 @@
+# A diasort Prof. Dr. Kozlovszky Miklós készítette és az ő személyes tulajdona!
