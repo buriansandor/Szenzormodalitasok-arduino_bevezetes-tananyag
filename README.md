@@ -12,7 +12,7 @@
 
 # Bevezetés
 - Thinkercad példák egyben: https://www.tinkercad.com/joinclass/FBXMSJFMM
-- Tananyag NotebookLM formában: 
+- Tananyag NotebookLM formában: https://notebooklm.google.com/notebook/548ba1ec-36a1-455f-af8d-d3ee1ae35c21
 
 ## Mikrokontrollerek VS számítógépek 
 | Aspektus | Mikrokontroller | Számítógép |
